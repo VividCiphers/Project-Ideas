@@ -29,5 +29,26 @@ Rebuild all of thinsoldier's old projects with other technologies and/or refacto
   
   This would be a good project because you already have fully working code to refer to and can just replicate that functionality with your preferred stack. It uses a real, _big_ database with lots of interesting data than can be queried in many interesting ways in case any members want to learn how to use SQL.
   
+  I need to remove sensitive data from the codebase and change my database settings before exposing the git repo to the public.
   
-- **Barz Noble - Musician Site**: viniciusarre has already started [rebuilding it with React](http://vivid.thinsoldier.com/). The [current site](http://www.barznoble.com/) was my own crappy custom JS with a little bit of php that wasn't necessary for that version. I only rebuilt it with JS because the artist wanted to have [music playing all the time](http://www.barznoble.com/x/1.37/) instead of the music stopping and starting every time you switched pages. But recently he decided to not have music playing all the time which means it doesn't need to be a single-page-app anymore. But since vini has already rebuilt it with React I'd like to eventually rebuild it with Vue.js to see what that would be like. This project makes use of embeds from soundcloud, the youtube api, and the wordpress.com api. It is not a wordpress site. I pulls all (most) of the text content from the artists account on wordpress.com via their api. I would like to make a custom audio player that uses the Soundcloud api. I would like to use the Facebook api for the photo gallery.
+  I will update soon with a dump of the database file... Or I might just make a quick url that you can to download all the live data as a huge json file.
+  
+  
+- **Barz Noble - Musician Site**: viniciusarre has already started [rebuilding it with React](http://vivid.thinsoldier.com/). The [current site](http://www.barznoble.com/) was my own crappy custom JS with a little bit of php that wasn't necessary for that version. I only rebuilt it with JS because the artist wanted to have [music playing all the time](http://www.barznoble.com/x/1.37/) instead of the music stopping and starting every time you switched pages. But recently he decided to not have music playing all the time which means it doesn't need to be a single-page-app anymore. But since vini has already rebuilt it with React I'd like to eventually rebuild it with Vue.js to see what that would be like.  
+
+  This project makes use of embeds from soundcloud, the youtube api, and the wordpress.com api. It is not a wordpress site. I pulls all (most) of the text content from the artists account on wordpress.com via their api. I would like to make a custom audio player that uses the Soundcloud api. I would like to use the Facebook api for the photo gallery.  
+  
+  The git repo is here [https://bitbucket.org/thinsoldier/barznoble](https://bitbucket.org/thinsoldier/barznoble)
+
+
+- **[Corporate info site](http://dic.bahama.land/)** - I don't see any benefit to rebuilding this as a single page app unless you also do server side rendering of the React code so you don't miss out on search engine bot traffic indexing the text content. But maybe someone can convince me otherwise.  
+  
+  The calculator page would be better if the calculator was a single well designed Vue.js component instead of the multi-page multi-step way it works now. Jaredcaraway expressed interested in converting the calculator to node but I have not heard from them for a while.
+  
+  I recently refactored the php to use a routing and templating system which _should_ make it easier for non-php users to understand how it all works if they understand the node Express library.
+  
+  I also recently converted all the CSS to Sass (.scss) and tried implementing a proper css naming convention. I don't think I did a good job with either of those tasks and would **appreciate a code review**. I didn't use BEM but now I feel like doing it all over again using BEM. What do you think?
+  
+  While updating the css I also used CSS Grid to make the design responsive. I'm not 100% done with the responsivity changes. When I do finish I'll want to refactor all of the css to be *mobile-first*. [The original unresponsive site is here.](http://www.dic.bs/)  
+  
+  The git repo is here [https://bitbucket.org/thinsoldier/thyme.deposit-insurance-corp](https://bitbucket.org/thinsoldier/thyme.deposit-insurance-corp)
