@@ -58,3 +58,7 @@ Rebuild all of thinsoldier's old projects with other technologies and/or refacto
 - **Youtube Subscription Organizer**: Many people complain about the way subscriptions work on youtube. It's one giant waterfall of every video from every channel you subscribe to. Many people have expressed a desire to organize their subscriptions into groups. I would like to have groups of channels like: gaming, news, front-end, back-end, photoshop, cute animals, music.  
 
   I have sort of started something like this for myself. A single page that lists the 5 (or 10 or 15 or 20) most recent videos from a collection of similar channels that I subscribe to. I just need to expand it to support multiple collections. Make it look pretty and user friendly, and persist the data in browser storage or back end database instead of hard coding the channel ids into the source.
+  
+  -**Vivid Cipher's Journal**: It is well known and popular many blogs and posts teaching how to create or code something specific. Either if it's on medium or in another website. However, I have noticed a lack of more personal insights such as people talking not only about how to do things, but their experiences while learning. I believe this might be a very coherent way of learning and helping other learners.
+  
+The idea consists of creating a web-based modern full stack application to share people's insights while learning something, a place for community members to share everything they have been experiencing directly from our platform, showing how the development experience can be. 
